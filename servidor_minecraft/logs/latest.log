@@ -3010,3 +3010,10 @@
 [20:55:46] [Server thread/INFO]: Vortex_Zerix has made the advancement [Dungeon Now Loading]
 [20:56:33] [Server thread/INFO]: Vortex_Zerix lost connection: Disconnected
 [20:56:33] [Server thread/INFO]: Vortex_Zerix left the game
+[21:09:38] [Server thread/INFO]: Vortex_Zerix[/100.88.140.126:54600] logged in with entity id 574 at (-59.49083008265732, 67.0, -66.27610942402596)
+[21:09:38] [Server thread/INFO]: Loading config from file...
+[21:09:38] [Server thread/INFO]: Vortex_Zerix joined the game
+[21:09:38] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to Vortex_Zerix
+[21:09:38] [Netty Epoll Server IO #6/INFO]: Received client config 'fallingtrees:fallingtrees_client' from Vortex_Zerix
+[21:09:44] [Server thread/INFO]: Vortex_Zerix lost connection: Disconnected
+[21:09:44] [Server thread/INFO]: Vortex_Zerix left the game
