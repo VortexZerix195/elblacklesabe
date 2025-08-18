@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-18 22:17:48 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2025-08-18 22:19:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-08-18 22:19:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cherry_grove": "2025-08-18 22:17:49 +0000",
+      "minecraft:meadow": "2025-08-18 22:18:22 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
