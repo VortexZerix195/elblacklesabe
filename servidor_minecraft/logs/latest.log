@@ -1,35 +1,17 @@
-[20:05:03] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[20:05:03] [ForkJoinPool-1-worker-3/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[20:05:03] [main/WARN]: Mod resolution failed
-[20:05:03] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE adventurez 1.4.20 {depends fabric-api @ [>=0.86.0+1.20.1]}, ROOT_FORCELOAD_SINGLE adventurez 1.4.20]
-[20:05:03] [main/INFO]: Reason: [HARD_DEP adventurez 1.4.20 {depends fabric-api @ [>=0.86.0+1.20.1]}, HARD_DEP architectury 9.0.8 {depends fabric-api @ [>=0.66.0]}, HARD_DEP dungeonnowloading 1.5 {depends fabric @ [*]}, HARD_DEP fallingtrees 0.13.2 {depends fabric @ [*]}, HARD_DEP fallingtrees 0.13.2 {depends fabric-api @ [*]}, HARD_DEP pandalib 0.5.2 {depends fabric @ [*]}, HARD_DEP pandalib 0.5.2 {depends fabric-api @ [*]}, HARD_DEP geckolib 4.7.1.2 {depends fabric-api @ [>=0.92.0+1.20.1]}, HARD_DEP mr_epicterrain 0.2.5 {depends fabric-resource-loader-v0 @ [*]}, HARD_DEP naturalist 5.0pre5 {depends fabric @ [*]}, HARD_DEP travelersbackpack 9.1.38 {depends fabric @ [>=0.90.0]}, HARD_DEP travelersbackpack 9.1.38 {depends cardinal-components-entity @ [*]}, HARD_DEP cardinal-components-base 5.2.3 {depends fabric-api-base @ [>=0.1.2]}, HARD_DEP trinkets 3.7.2 {depends cardinal-components-entity @ [>=3.0.0-0]}, HARD_DEP trinkets 3.7.2 {depends fabric @ [>=0.51.2]}, HARD_DEP wildernature 1.0.6 {depends fabric @ [*]}, HARD_DEP midnightlib 1.4.1 {depends fabric-resource-loader-v0 @ [*]}]
-[20:05:03] [main/INFO]: SERVER environment disabled: [sodium, lambdynlights, ambientsounds, immediatelyfast]
-[20:05:03] [main/INFO]: Fix: add [add:fabric-api 0.92.0+1.20.1 ([[0.92.0+1.20.1,∞)]), add:fabric 0.90.0 ([[0.90.0,∞)]), add:fabric-resource-loader-v0 0.11.1 ([(-∞,∞)]), add:fabric-api-base 0.1.2 ([[0.1.2,∞)])], remove [], replace []
-[20:05:03] [main/ERROR]: Incompatible mods found!
+[20:21:38] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[20:21:38] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:21:38] [main/WARN]: Mod resolution failed
+[20:21:38] [main/INFO]: Immediate reason: [HARD_DEP adventurez 1.4.20 {depends fabric-api @ [>=0.86.0+1.20.1]}, HARD_DEP_NO_CANDIDATE fabric-api 0.92.6+1.20.1 {depends fabricloader @ [>=0.16.10]}, ROOT_FORCELOAD_SINGLE adventurez 1.4.20]
+[20:21:38] [main/INFO]: Reason: [HARD_DEP fabric-api 0.92.6+1.20.1 {depends fabricloader @ [>=0.16.10]}, HARD_DEP fabric-object-builder-api-v1 11.1.5+e35120df77 {depends fabricloader @ [>=0.16.10]}]
+[20:21:38] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, lambdynlights, ambientsounds, immediatelyfast, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, sodium, fabric-renderer-registries-v1, fabric-models-v0, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1]
+[20:21:38] [main/INFO]: Fix: add [], remove [], replace [[fabricloader 0.16.3] -> add:fabricloader 0.16.10 ([[0.16.10,∞)])]
+[20:21:38] [main/ERROR]: Incompatible mods found!
 net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
 A potential solution has been determined, this may resolve your problem:
-	 - Install fabric-api, version 0.92.0+1.20.1 or later.
-	 - Install fabric, version 0.90.0 or later.
-	 - Install fabric-resource-loader-v0, any version.
-	 - Install fabric-api-base, version 0.1.2 or later.
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.10 or later.
 More details:
-	 - Mod 'AdventureZ' (adventurez) 1.4.20 requires version 0.86.0+1.20.1 or later of fabric-api, which is missing!
-	 - Mod 'Architectury' (architectury) 9.0.8 requires version 0.66.0 or later of fabric-api, which is missing!
-	 - Mod 'Dungeon Now Loading' (dungeonnowloading) 1.5 requires any version of fabric, which is missing!
-	 - Mod 'Panda's Falling Tree's' (fallingtrees) 0.13.2 requires any version of fabric, which is missing!
-	 - Mod 'Panda's Falling Tree's' (fallingtrees) 0.13.2 requires any version of fabric-api, which is missing!
-	 - Mod 'PandaLib' (pandalib) 0.5.2 requires any version of fabric, which is missing!
-	 - Mod 'PandaLib' (pandalib) 0.5.2 requires any version of fabric-api, which is missing!
-	 - Mod 'GeckoLib 4' (geckolib) 4.7.1.2 requires version 0.92.0+1.20.1 or later of fabric-api, which is missing!
-	 - Mod 'Epic Terrain' (mr_epicterrain) 0.2.5 requires any version of fabric-resource-loader-v0, which is missing!
-	 - Mod 'Naturalist' (naturalist) 5.0pre5 requires any version of fabric, which is missing!
-	 - Mod 'Traveler's Backpack' (travelersbackpack) 9.1.38 requires version 0.90.0 or later of fabric, which is missing!
-	 - Mod 'Traveler's Backpack' (travelersbackpack) 9.1.38 requires any version of mod 'Cardinal Components API (entities)' (cardinal-components-entity), which can't be loaded due to other constraints!
-	 - Mod 'Cardinal Components API (base)' (cardinal-components-base) 5.2.3 requires version 0.1.2 or later of fabric-api-base, which is missing!
-	 - Mod 'Trinkets' (trinkets) 3.7.2 requires version 3.0.0-0 or later of mod 'Cardinal Components API (entities)' (cardinal-components-entity), which can't be loaded due to other constraints!
-	 - Mod 'Trinkets' (trinkets) 3.7.2 requires version 0.51.2 or later of fabric, which is missing!
-	 - Mod '[Let's Do] WilderNature' (wildernature) 1.0.6 requires any version of fabric, which is missing!
-	 - Mod 'MidnightLib' (midnightlib) 1.4.1 requires any version of fabric-resource-loader-v0, which is missing!
+	 - Mod 'Fabric API' (fabric-api) 0.92.6+1.20.1 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Fabric Object Builder API (v1)' (fabric-object-builder-api-v1) 11.1.5+e35120df77 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
 	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
