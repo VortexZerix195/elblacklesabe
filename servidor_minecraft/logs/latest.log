@@ -2451,3 +2451,12 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [11:51:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60762 chunks (15.46%), ETA: 3:20:40, Rate: 27.6 cps, Current: 32, -119
 [11:51:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60795 chunks (15.46%), ETA: 3:24:14, Rate: 27.1 cps, Current: 42, -97
 [11:51:08] [Chunky-minecraft:overworld Thread/INFO]: [Chunky] Task stopped for minecraft:overworld.
+[11:52:43] [Server thread/INFO]: Incorrect argument for command
+[11:52:43] [Server thread/INFO]: op vorop vortexlluis<--[HERE]
+[11:53:07] [Server thread/INFO]: Made VortexLLUIS a server operator
+[11:53:20] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Creative Mode]
+[11:56:37] [Server thread/INFO]: Vortex_Zerix lost connection: Disconnected
+[11:56:37] [Server thread/INFO]: Vortex_Zerix left the game
+[11:56:43] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Survival Mode]
+[11:56:44] [Server thread/INFO]: VortexLLUIS lost connection: Disconnected
+[11:56:44] [Server thread/INFO]: VortexLLUIS left the game
