@@ -1,6 +1,6 @@
-[16:14:21] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[16:14:21] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[16:14:21] [main/INFO]: Loading 78 mods:
+[16:37:45] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[16:37:45] [ForkJoinPool-1-worker-3/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:37:45] [main/INFO]: Loading 78 mods:
 	- adventurez 1.4.20
 	- architectury 9.0.8
 	- cardinal-components 5.2.3
@@ -92,12 +92,12 @@
 	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
 	- trinkets 3.7.2
 	- wildernature 1.0.6
-[16:14:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/elblacklesabe/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:14:22] [main/INFO]: Compatibility level set to JAVA_17
-[16:14:22] [main/WARN]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:14:22] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:14:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[16:14:25] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$zob000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+[16:37:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/elblacklesabe/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:37:46] [main/INFO]: Compatibility level set to JAVA_17
+[16:37:46] [main/WARN]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:37:46] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:37:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:37:49] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$zob000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
 org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$zob000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
 	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
@@ -138,180 +138,143 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:hollow
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:spawner_carrier
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:sealed_chaos
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:whimper
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner_projectile
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:special_item_entity
-[16:14:30] [main/ERROR]: No data fixer registered for dungeonnowloading:great_experience_bottle
-[16:14:30] [main/INFO]: Hello Fabric world!
-[16:14:30] [main/INFO]: Successfully loaded config 'fallingtrees_common'
-[16:14:30] [main/INFO]: Successfully saved config 'fallingtrees_common'
-[16:14:30] [main/INFO]: Initializing ServerSide Packet Registries
-[16:14:30] [main/INFO]: Necronomicon Initialized
-[16:14:30] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[16:14:30] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[16:14:30] [main/INFO]: Loading Noisium.
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:bison
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:boar
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:cassowary
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:deer
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:dog
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:flamingo
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:hedgehog
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:minisheep
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:owl
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:pelican
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:penguin
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:raccoon
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:red_wolf
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:squirrel
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:turkey
-[16:14:30] [main/ERROR]: No data fixer registered for wildernature:bullet
-[16:14:30] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
-[16:14:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:14:31] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[16:14:32] [main/INFO]: Loaded 8 recipes
-[16:14:32] [main/INFO]: Loaded 1344 advancements
-[16:14:33] [main/INFO]: Applied 377 biome modifications to 56 of 64 new biomes in 26.63 ms
-[16:14:33] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:14:33] [Server thread/INFO]: Loading properties
-[16:14:33] [Server thread/INFO]: Default game type: SURVIVAL
-[16:14:33] [Server thread/INFO]: Generating keypair
-[16:14:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:14:33] [Server thread/INFO]: Using epoll channel type
-[16:14:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:14:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:14:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:14:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:14:33] [Server thread/INFO]: Preparing level "world"
-[16:14:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:14:56] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[16:14:56] [Worker-Main-3/INFO]: Preparing spawn area: 84%
-[16:14:56] [Server thread/INFO]: Time elapsed: 13773 ms
-[16:14:56] [Server thread/INFO]: Done (22.934s)! For help, type "help"
-[16:15:31] [Server thread/WARN]: Invalid statistic in ./world/stats/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json: Don't know what travelersbackpack:standard is
-[16:15:31] [Server thread/WARN]: Invalid statistic in ./world/stats/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json: Don't know what travelersbackpack:standard is
-[16:15:31] [Server thread/WARN]: Invalid statistic in ./world/stats/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json: Don't know what travelersbackpack:standard is
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/sheep' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/decorations/white_sleeping_bag' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/decorations/black_sleeping_bag' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/blank_upgrade' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/horse' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/standard_smithing' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/chicken' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/hay' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/coal' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/creeper' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/skeleton' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/wolf' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/iron' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/iron_tier_upgrade' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/hose_nozzle' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/backpack_tank' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/standard' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/standard_no_tanks' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/spider' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/lapis' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/redstone' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/gold' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/gold_tier_upgrade' in progress file ./world/advancements/69ffb49e-9ac0-3a22-b5e9-162acb2ece5f.json - it doesn't exist anymore?
-[16:15:31] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:reach'
-[16:15:31] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:attack_range'
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:coal removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:blank_upgrade removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:iron_tier_upgrade removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:chicken removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:skeleton removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:backpack_tank removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:gold_tier_upgrade removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:lapis removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:horse removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:sheep removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:black_sleeping_bag removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard_smithing removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:white_sleeping_bag removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:spider removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:iron removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:hose_nozzle removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:hay removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:creeper removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:redstone removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:wolf removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:gold removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard_no_tanks removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:spider removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:iron removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:iron_tier_upgrade removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:skeleton removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:backpack_tank removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:gold_tier_upgrade removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:lapis removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard_smithing removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:creeper removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:redstone removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:wolf removed now.
-[16:15:31] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:gold removed now.
-[16:15:31] [Server thread/WARN]: Failed to deserialize component: unregistered key travelersbackpack:travelersbackpack
-[16:15:31] [Server thread/INFO]: VortexLLUIS[/100.98.6.115:54581] logged in with entity id 182 at (-498.50886904826024, 67.0, 23.319383282222322)
-[16:15:31] [Server thread/INFO]: VortexLLUIS joined the game
-[16:15:31] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to VortexLLUIS
-[16:15:32] [Netty Epoll Server IO #1/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexLLUIS
-[16:15:55] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/sheep' in progress file ./world/advancements/c0391713-4723-3308-a115-0ecac62b14f9.json - it doesn't exist anymore?
-[16:15:55] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/decorations/white_sleeping_bag' in progress file ./world/advancements/c0391713-4723-3308-a115-0ecac62b14f9.json - it doesn't exist anymore?
-[16:15:55] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:reach'
-[16:15:55] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:attack_range'
-[16:15:55] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:sheep removed now.
-[16:15:55] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:white_sleeping_bag removed now.
-[16:15:55] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:sheep removed now.
-[16:15:55] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:white_sleeping_bag removed now.
-[16:15:55] [Server thread/WARN]: Failed to deserialize component: unregistered key travelersbackpack:travelersbackpack
-[16:15:55] [Server thread/INFO]: Vortex_Zerix[/100.88.140.126:64716] logged in with entity id 593 at (-72.37899006271913, 73.0, 0.11711062126569192)
-[16:15:55] [Server thread/INFO]: Vortex_Zerix joined the game
-[16:15:55] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to Vortex_Zerix
-[16:15:57] [Netty Epoll Server IO #3/INFO]: Received client config 'fallingtrees:fallingtrees_client' from Vortex_Zerix
-[16:16:42] [Server thread/INFO]: [Vortex_Zerix: Teleported Vortex_Zerix to VortexLLUIS]
-[16:17:35] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to Vortex_Zerix]
-[16:18:05] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> gamemode 1
-[16:18:27] [Server thread/INFO]: [Vortex_Zerix: Set own game mode to Survival Mode]
-[16:18:33] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to Vortex_Zerix]
-[16:18:36] [Server thread/INFO]: [Vortex_Zerix: Set own game mode to Creative Mode]
-[16:18:39] [Server thread/WARN]: VortexLLUIS moved too quickly! -80.93845281547101,0.4255519066989848,167.15190477100526
-[16:18:42] [Server thread/INFO]: [Vortex_Zerix: Teleported Vortex_Zerix to VortexLLUIS]
-[16:19:18] [Server thread/INFO]: [Vortex_Zerix: Set own game mode to Survival Mode]
-[16:19:22] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to Vortex_Zerix]
-[16:19:59] [Server thread/INFO]: VortexLLUIS has made the advancement [Suit Up]
-[16:20:29] [Server thread/INFO]: Vortex_Zerix has made the advancement [Dungeon Now Loading]
-[16:20:40] [Server thread/INFO]: VortexLLUIS lost connection: Disconnected
-[16:20:40] [Server thread/INFO]: VortexLLUIS left the game
-[16:22:55] [Server thread/INFO]: Vortex_Zerix lost connection: Disconnected
-[16:22:55] [Server thread/INFO]: Vortex_Zerix left the game
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:hollow
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:spawner_carrier
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:sealed_chaos
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:whimper
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner_projectile
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:special_item_entity
+[16:37:54] [main/ERROR]: No data fixer registered for dungeonnowloading:great_experience_bottle
+[16:37:54] [main/INFO]: Hello Fabric world!
+[16:37:54] [main/INFO]: Successfully loaded config 'fallingtrees_common'
+[16:37:54] [main/INFO]: Successfully saved config 'fallingtrees_common'
+[16:37:54] [main/INFO]: Initializing ServerSide Packet Registries
+[16:37:54] [main/INFO]: Necronomicon Initialized
+[16:37:54] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[16:37:54] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[16:37:54] [main/INFO]: Loading Noisium.
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:bison
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:boar
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:cassowary
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:deer
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:dog
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:flamingo
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:hedgehog
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:minisheep
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:owl
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:pelican
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:penguin
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:raccoon
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:red_wolf
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:squirrel
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:turkey
+[16:37:54] [main/ERROR]: No data fixer registered for wildernature:bullet
+[16:37:54] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
+[16:37:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:37:56] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:37:56] [main/INFO]: Loaded 8 recipes
+[16:37:57] [main/INFO]: Loaded 1344 advancements
+[16:37:57] [main/INFO]: Applied 377 biome modifications to 56 of 64 new biomes in 22.65 ms
+[16:37:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:37:57] [Server thread/INFO]: Loading properties
+[16:37:57] [Server thread/INFO]: Default game type: SURVIVAL
+[16:37:57] [Server thread/INFO]: Generating keypair
+[16:37:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:37:58] [Server thread/INFO]: Using epoll channel type
+[16:37:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:37:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:37:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:37:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:37:58] [Server thread/INFO]: Preparing level "world"
+[16:38:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:38:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:38:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:38:20] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[16:38:20] [Worker-Main-1/INFO]: Preparing spawn area: 73%
+[16:38:20] [Server thread/INFO]: Time elapsed: 5194 ms
+[16:38:20] [Server thread/INFO]: Done (22.554s)! For help, type "help"
+[16:39:10] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/cake' in progress file ./world/advancements/fe76138b-df14-3ac5-8f3d-3efc6218d874.json - it doesn't exist anymore?
+[16:39:10] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/chicken' in progress file ./world/advancements/fe76138b-df14-3ac5-8f3d-3efc6218d874.json - it doesn't exist anymore?
+[16:39:10] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16:39:10] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:attack_range'
+[16:39:10] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:chicken removed now.
+[16:39:10] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:cake removed now.
+[16:39:10] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:chicken removed now.
+[16:39:10] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:cake removed now.
+[16:39:10] [Server thread/WARN]: Failed to deserialize component: unregistered key travelersbackpack:travelersbackpack
+[16:39:10] [Server thread/INFO]: powerlaura[/100.73.216.44:58243] logged in with entity id 121 at (100.87325714879479, 154.0, -56.94294544402875)
+[16:39:10] [Server thread/INFO]: powerlaura joined the game
+[16:39:10] [Netty Epoll Server IO #1/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
+[16:39:10] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
+[16:40:06] [Server thread/INFO]: powerlaura was killed whilst fighting Skeleton
+[16:40:06] [Server thread/INFO]: Killed powerlaura
+[16:41:41] [Server thread/INFO]: Killed powerlaura
+[16:43:45] [Server thread/WARN]: Invalid statistic in ./world/stats/360e723f-daa1-3b01-9148-37960072ae7d.json: Don't know what travelersbackpack:white_sleeping_bag is
+[16:43:45] [Server thread/WARN]: Invalid statistic in ./world/stats/360e723f-daa1-3b01-9148-37960072ae7d.json: Don't know what travelersbackpack:standard is
+[16:43:45] [Server thread/WARN]: Invalid statistic in ./world/stats/360e723f-daa1-3b01-9148-37960072ae7d.json: Don't know what travelersbackpack:standard is
+[16:43:45] [Server thread/WARN]: Invalid statistic in ./world/stats/360e723f-daa1-3b01-9148-37960072ae7d.json: Don't know what travelersbackpack:standard is
+[16:43:45] [Server thread/WARN]: Invalid statistic in ./world/stats/360e723f-daa1-3b01-9148-37960072ae7d.json: Don't know what travelersbackpack:standard is
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/sheep' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/decorations/white_sleeping_bag' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/decorations/black_sleeping_bag' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/spider' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/chicken' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/skeleton' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/cake' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/blank_upgrade' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/horse' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/lapis' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/emerald' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/iron' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/iron_tier_upgrade' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/hose_nozzle' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/backpack_tank' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/standard' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/standard_no_tanks' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/coal' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/hay' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/wolf' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/standard_smithing' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignored advancement 'travelersbackpack:recipes/misc/creeper' in progress file ./world/advancements/360e723f-daa1-3b01-9148-37960072ae7d.json - it doesn't exist anymore?
+[16:43:45] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:attack_range'
+[16:43:45] [Server thread/WARN]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:coal removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:blank_upgrade removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:spider removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:iron removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:iron_tier_upgrade removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:chicken removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:hose_nozzle removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:skeleton removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:backpack_tank removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:lapis removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:horse removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:sheep removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:black_sleeping_bag removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:cake removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard_smithing removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:hay removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:creeper removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:wolf removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard_no_tanks removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:emerald removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:white_sleeping_bag removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:creeper removed now.
+[16:43:45] [Server thread/ERROR]: Tried to load unrecognized recipe: travelersbackpack:standard_smithing removed now.
+[16:43:45] [Server thread/WARN]: Failed to deserialize component: unregistered key travelersbackpack:travelersbackpack
+[16:43:45] [Server thread/INFO]: JuliiaPoquet[/100.118.45.106:51353] logged in with entity id 388 at (-499.5, 62.5625, 38.557933853514214)
+[16:43:46] [Server thread/INFO]: JuliiaPoquet joined the game
+[16:43:46] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to JuliiaPoquet
+[16:43:47] [Netty Epoll Server IO #3/INFO]: Received client config 'fallingtrees:fallingtrees_client' from JuliiaPoquet
+[16:44:55] [Server thread/INFO]: JuliiaPoquet was killed
+[16:44:55] [Server thread/INFO]: Killed JuliiaPoquet
+[16:45:07] [Server thread/INFO]: Killed powerlaura

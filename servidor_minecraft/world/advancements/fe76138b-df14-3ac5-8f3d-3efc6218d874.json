@@ -38,12 +38,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/cake": {
-    "criteria": {
-      "has_egg": "2025-08-18 23:01:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2025-08-18 23:03:01 +0000"
@@ -69,12 +63,6 @@
     "done": true
   },
   "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_feather": "2025-08-18 23:03:02 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/chicken": {
     "criteria": {
       "has_feather": "2025-08-18 23:03:02 +0000"
     },
