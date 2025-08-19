@@ -8,6 +8,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cherry_grove": "2025-08-18 22:07:07 +0000",
+      "minecraft:river": "2025-08-19 11:16:43 +0000",
+      "minecraft:cold_ocean": "2025-08-19 11:16:51 +0000",
+      "minecraft:forest": "2025-08-19 11:16:48 +0000",
       "minecraft:frozen_peaks": "2025-08-18 22:08:31 +0000",
       "minecraft:meadow": "2025-08-18 22:07:16 +0000",
       "minecraft:plains": "2025-08-18 22:09:04 +0000"
