@@ -1,6 +1,6 @@
-[15:07:24] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[15:07:24] [ForkJoinPool-1-worker-2/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[15:07:24] [main/INFO]: Loading 78 mods:
+[21:32:50] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[21:32:50] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:32:51] [main/INFO]: Loading 78 mods:
 	- adventurez 1.4.20
 	- architectury 9.0.8
 	- cardinal-components 5.2.3
@@ -92,12 +92,12 @@
 	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
 	- trinkets 3.7.2
 	- wildernature 1.0.6
-[15:07:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/elblacklesabe/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:07:25] [main/INFO]: Compatibility level set to JAVA_17
-[15:07:25] [main/WARN]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:07:25] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:07:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[15:07:28] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$zob000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+[21:32:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/elblacklesabe/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:32:51] [main/INFO]: Compatibility level set to JAVA_17
+[21:32:51] [main/WARN]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:32:51] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:32:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:32:54] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$zob000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
 org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$zob000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
 	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
@@ -138,93 +138,83 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:hollow
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:spawner_carrier
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:sealed_chaos
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:whimper
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner_projectile
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:special_item_entity
-[15:07:32] [main/ERROR]: No data fixer registered for dungeonnowloading:great_experience_bottle
-[15:07:32] [main/INFO]: Hello Fabric world!
-[15:07:32] [main/INFO]: Successfully loaded config 'fallingtrees_common'
-[15:07:32] [main/INFO]: Successfully saved config 'fallingtrees_common'
-[15:07:32] [main/INFO]: Initializing ServerSide Packet Registries
-[15:07:32] [main/INFO]: Necronomicon Initialized
-[15:07:32] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[15:07:32] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[15:07:32] [main/INFO]: Loading Noisium.
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:bison
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:boar
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:cassowary
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:deer
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:dog
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:flamingo
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:hedgehog
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:minisheep
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:owl
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:pelican
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:penguin
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:raccoon
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:red_wolf
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:squirrel
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:turkey
-[15:07:33] [main/ERROR]: No data fixer registered for wildernature:bullet
-[15:07:33] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
-[15:07:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:07:34] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[15:07:35] [main/INFO]: Loaded 8 recipes
-[15:07:35] [main/INFO]: Loaded 1344 advancements
-[15:07:36] [main/INFO]: Applied 377 biome modifications to 56 of 64 new biomes in 20.46 ms
-[15:07:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[15:07:36] [Server thread/INFO]: Loading properties
-[15:07:36] [Server thread/INFO]: Default game type: SURVIVAL
-[15:07:36] [Server thread/INFO]: Generating keypair
-[15:07:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:07:36] [Server thread/INFO]: Using epoll channel type
-[15:07:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:07:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:07:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:07:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:07:36] [Server thread/INFO]: Preparing level "world"
-[15:07:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:07:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:07:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:07:59] [Worker-Main-2/INFO]: Preparing spawn area: 22%
-[15:07:59] [Worker-Main-1/INFO]: Preparing spawn area: 84%
-[15:07:59] [Server thread/INFO]: Time elapsed: 6171 ms
-[15:07:59] [Server thread/INFO]: Done (23.601s)! For help, type "help"
-[15:08:09] [Server thread/INFO]: JuliiaPoquet[/100.118.45.106:50714] logged in with entity id 119 at (-491.7251454480074, 67.0, 23.048094484996078)
-[15:08:09] [Server thread/INFO]: JuliiaPoquet joined the game
-[15:08:09] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to JuliiaPoquet
-[15:08:11] [Netty Epoll Server IO #1/INFO]: Received client config 'fallingtrees:fallingtrees_client' from JuliiaPoquet
-[15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/640, l='ServerLevel[world]', x=-561.70, y=63.51, z=-176.00]
-[15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/641, l='ServerLevel[world]', x=-575.08, y=69.88, z=-176.08]
-[15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/644, l='ServerLevel[world]', x=-492.86, y=62.91, z=-176.06]
-[15:22:53] [Server thread/INFO]: JuliiaPoquet has made the advancement [Isn't It Iron Pick]
-[15:38:36] [Server thread/INFO]: JuliiaPoquet froze to death
-[15:45:31] [Server thread/INFO]: powerlaura[/100.73.216.44:61895] logged in with entity id 7401 at (-505.41222307195693, 67.0, 15.391442488063857)
-[15:45:31] [Server thread/INFO]: powerlaura joined the game
-[15:45:31] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
-[15:45:32] [Netty Epoll Server IO #3/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
-[15:58:17] [Server thread/INFO]: powerlaura was slain by Zombie
-[16:03:08] [Server thread/INFO]: powerlaura has made the advancement [Stone Age]
-[16:03:24] [Server thread/INFO]: powerlaura has made the advancement [Getting an Upgrade]
-[16:17:38] [Server thread/INFO]: JuliiaPoquet lost connection: Disconnected
-[16:17:38] [Server thread/INFO]: JuliiaPoquet left the game
-[16:38:39] [Server thread/INFO]: Made powerlaura a server operator
-[17:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-406, y=61, z=-102} class_2338{x=-406, y=62, z=-102}
-[17:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-406, y=61, z=-102} class_2338{x=-406, y=62, z=-102}
-[17:23:33] [Server thread/INFO]: [STDOUT]: []
-[17:24:46] [Server thread/INFO]: powerlaura has made the advancement [Acquire Hardware]
-[17:24:53] [Server thread/INFO]: powerlaura has made the advancement [Diamonds!]
-[17:26:30] [Server thread/INFO]: [STDOUT]: []
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:hollow
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:spawner_carrier
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:sealed_chaos
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:whimper
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner_projectile
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:special_item_entity
+[21:32:58] [main/ERROR]: No data fixer registered for dungeonnowloading:great_experience_bottle
+[21:32:59] [main/INFO]: Hello Fabric world!
+[21:32:59] [main/INFO]: Successfully loaded config 'fallingtrees_common'
+[21:32:59] [main/INFO]: Successfully saved config 'fallingtrees_common'
+[21:32:59] [main/INFO]: Initializing ServerSide Packet Registries
+[21:32:59] [main/INFO]: Necronomicon Initialized
+[21:32:59] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[21:32:59] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[21:32:59] [main/INFO]: Loading Noisium.
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:bison
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:boar
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:cassowary
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:deer
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:dog
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:flamingo
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:hedgehog
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:minisheep
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:owl
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:pelican
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:penguin
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:raccoon
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:red_wolf
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:squirrel
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:turkey
+[21:32:59] [main/ERROR]: No data fixer registered for wildernature:bullet
+[21:32:59] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
+[21:32:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:33:00] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:33:01] [main/INFO]: Loaded 8 recipes
+[21:33:01] [main/INFO]: Loaded 1344 advancements
+[21:33:02] [main/INFO]: Applied 377 biome modifications to 56 of 64 new biomes in 24.55 ms
+[21:33:02] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:33:02] [Server thread/INFO]: Loading properties
+[21:33:02] [Server thread/INFO]: Default game type: SURVIVAL
+[21:33:02] [Server thread/INFO]: Generating keypair
+[21:33:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:33:02] [Server thread/INFO]: Using epoll channel type
+[21:33:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:33:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:33:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:33:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:33:03] [Server thread/INFO]: Preparing level "world"
+[21:33:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:33:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:33:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:33:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:33:27] [Worker-Main-2/INFO]: Preparing spawn area: 43%
+[21:33:28] [Server thread/INFO]: Time elapsed: 5873 ms
+[21:33:28] [Server thread/INFO]: Done (24.985s)! For help, type "help"
+[21:33:49] [Server thread/INFO]: JuliiaPoquet[/100.118.45.106:52421] logged in with entity id 105 at (-501.96589662145414, 66.0, 6.364645727755468)
+[21:33:49] [Server thread/INFO]: JuliiaPoquet joined the game
+[21:33:50] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to JuliiaPoquet
+[21:33:50] [Netty Epoll Server IO #2/INFO]: Received client config 'fallingtrees:fallingtrees_client' from JuliiaPoquet
+[21:34:05] [Server thread/INFO]: powerlaura[/100.73.216.44:60635] logged in with entity id 450 at (-497.30000001192093, 62.0, 36.36286825974777)
+[21:34:05] [Server thread/INFO]: powerlaura joined the game
+[21:34:05] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
+[21:34:05] [Netty Epoll Server IO #4/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
+[21:34:52] [Server thread/INFO]: Vortex_Zerix[/100.88.140.126:53815] logged in with entity id 632 at (-529.2393621882655, 64.0, -130.07438358729038)
+[21:34:52] [Server thread/INFO]: Vortex_Zerix joined the game
+[21:34:52] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to Vortex_Zerix
+[21:34:53] [Netty Epoll Server IO #7/INFO]: Received client config 'fallingtrees:fallingtrees_client' from Vortex_Zerix
+[21:38:33] [Server thread/INFO]: Made JuliiaPoquet a server operator
+[21:39:53] [Server thread/INFO]: [Vortex_Zerix: Teleported Vortex_Zerix to JuliiaPoquet]
+[21:40:48] [Server thread/INFO]: Vortex_Zerix has made the advancement [Monster Hunter]
+[21:42:00] [Server thread/INFO]: powerlaura has made the advancement [Suit Up]
