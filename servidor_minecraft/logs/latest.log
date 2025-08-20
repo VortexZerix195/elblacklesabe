@@ -210,3 +210,4 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/640, l='ServerLevel[world]', x=-561.70, y=63.51, z=-176.00]
 [15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/641, l='ServerLevel[world]', x=-575.08, y=69.88, z=-176.08]
 [15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/644, l='ServerLevel[world]', x=-492.86, y=62.91, z=-176.06]
+[15:22:53] [Server thread/INFO]: JuliiaPoquet has made the advancement [Isn't It Iron Pick]
