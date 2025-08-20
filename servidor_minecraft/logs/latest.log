@@ -223,3 +223,13 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [21:46:36] [Server thread/INFO]: Vortex_Zerix has made the advancement [Stone Age]
 [21:48:32] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> no se escucha
 [21:52:14] [Server thread/WARN]: Vortex_Zerix moved too quickly! -44.331854130442764,7.0,125.19239303091202
+[21:54:55] [Server thread/INFO]: VortexLLUIS[/100.98.6.115:49383] logged in with entity id 4933 at (-497.50749433119483, 62.0, 39.36662456548915)
+[21:54:55] [Server thread/INFO]: VortexLLUIS joined the game
+[21:54:55] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to VortexLLUIS
+[21:54:57] [Netty Epoll Server IO #1/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexLLUIS
+[21:55:14] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to JuliiaPoquet]
+[21:57:16] [Server thread/INFO]: VortexLLUIS hit the ground too hard
+[21:57:24] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to JuliiaPoquet]
+[22:01:34] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to JuliiaPoquet]
+[22:02:57] [Server thread/INFO]: powerlaura was slain by VortexLLUIS
+[22:02:59] [Server thread/INFO]: JuliiaPoquet has made the advancement [Suit Up]
