@@ -222,3 +222,5 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [16:17:38] [Server thread/INFO]: JuliiaPoquet lost connection: Disconnected
 [16:17:38] [Server thread/INFO]: JuliiaPoquet left the game
 [16:38:39] [Server thread/INFO]: Made powerlaura a server operator
+[17:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-406, y=61, z=-102} class_2338{x=-406, y=62, z=-102}
+[17:15:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-406, y=61, z=-102} class_2338{x=-406, y=62, z=-102}
