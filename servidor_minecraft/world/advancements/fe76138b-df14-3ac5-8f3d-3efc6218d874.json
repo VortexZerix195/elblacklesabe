@@ -150,7 +150,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_mutton": "2025-08-19 16:59:58 +0000"
+      "cooked_porkchop": "2025-08-20 16:15:24 +0000",
+      "cooked_mutton": "2025-08-19 16:59:58 +0000",
+      "cooked_chicken": "2025-08-20 16:15:21 +0000"
     },
     "done": false
   },
@@ -352,9 +354,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-08-20 15:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-20 16:08:31 +0000"
     },
     "done": true
   },
@@ -370,6 +384,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-08-20 15:55:43 +0000"
@@ -379,6 +399,12 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-08-20 16:03:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
     },
     "done": true
   },
@@ -430,6 +456,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2025-08-20 16:03:08 +0000"
@@ -454,15 +486,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-08-20 16:16:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-08-20 15:55:43 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-08-20 16:03:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
     },
     "done": true
   },
@@ -502,15 +564,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2025-08-20 16:03:08 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
       "in_water": "2025-08-20 15:49:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
     },
     "done": true
   },
@@ -532,6 +612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-08-20 15:49:22 +0000"
@@ -550,6 +636,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-20 16:08:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2025-08-20 15:49:22 +0000"
@@ -565,6 +657,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2025-08-20 15:49:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-20 16:08:31 +0000"
     },
     "done": true
   },
@@ -598,15 +696,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-08-20 16:16:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-08-20 15:49:22 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-08-20 15:49:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-08-20 16:08:27 +0000"
     },
     "done": true
   },
