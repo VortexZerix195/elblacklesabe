@@ -216,3 +216,6 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [15:45:31] [Server thread/INFO]: powerlaura joined the game
 [15:45:31] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
 [15:45:32] [Netty Epoll Server IO #3/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
+[15:58:17] [Server thread/INFO]: powerlaura was slain by Zombie
+[16:03:08] [Server thread/INFO]: powerlaura has made the advancement [Stone Age]
+[16:03:24] [Server thread/INFO]: powerlaura has made the advancement [Getting an Upgrade]
