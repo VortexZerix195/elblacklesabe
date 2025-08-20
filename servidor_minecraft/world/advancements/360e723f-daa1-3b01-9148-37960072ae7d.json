@@ -729,6 +729,7 @@
       "chicken": "2025-08-18 23:05:07 +0000",
       "cooked_mutton": "2025-08-19 16:59:15 +0000",
       "cooked_beef": "2025-08-18 23:14:12 +0000",
+      "beef": "2025-08-20 22:13:10 +0000",
       "apple": "2025-08-18 22:47:51 +0000",
       "mutton": "2025-08-20 15:43:07 +0000"
     },
@@ -1382,6 +1383,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-08-20 22:05:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-08-20 22:05:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2025-08-20 22:05:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-08-20 21:34:38 +0000"
@@ -1400,6 +1419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-08-20 22:05:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
       "has_mud": "2025-08-20 22:02:59 +0000"
@@ -1409,6 +1434,12 @@
   "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
       "has_needed_dye": "2025-08-20 22:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-08-20 22:05:54 +0000"
     },
     "done": true
   },
