@@ -731,7 +731,9 @@
       "cooked_beef": "2025-08-18 23:14:12 +0000",
       "beef": "2025-08-20 22:13:10 +0000",
       "apple": "2025-08-18 22:47:51 +0000",
-      "mutton": "2025-08-20 15:43:07 +0000"
+      "mutton": "2025-08-20 15:43:07 +0000",
+      "bread": "2025-08-20 22:33:07 +0000",
+      "cooked_chicken": "2025-08-20 22:36:58 +0000"
     },
     "done": false
   },
@@ -1341,27 +1343,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_polished_granite": "2025-08-20 22:16:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2025-08-20 22:15:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_chestplate": "2025-08-20 22:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2025-08-20 22:15:12 +0000"
+      "has_bow": "2025-08-20 21:34:38 +0000"
     },
     "done": true
   },
@@ -1377,21 +1361,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
-    "criteria": {
-      "has_polished_granite": "2025-08-20 22:16:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_red_dye": "2025-08-20 22:02:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-08-20 22:15:12 +0000"
     },
     "done": true
   },
@@ -1401,27 +1373,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab": {
-    "criteria": {
-      "has_stone_bricks": "2025-08-20 22:16:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/red_candle": {
     "criteria": {
       "has_red_dye": "2025-08-20 22:02:29 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_stairs": {
-    "criteria": {
-      "has_stone_bricks": "2025-08-20 22:16:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
       "has_red_dye": "2025-08-20 22:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-08-20 22:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-08-20 22:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-08-20 22:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-08-20 22:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-08-20 22:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-08-20 22:02:59 +0000"
     },
     "done": true
   },
@@ -1443,45 +1439,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
-    "criteria": {
-      "has_tag": "2025-08-20 22:16:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-08-20 21:34:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_red_dye": "2025-08-20 22:02:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
-    "criteria": {
-      "has_red_dye": "2025-08-20 22:02:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_yellow_wool": {
     "criteria": {
       "has_needed_dye": "2025-08-20 22:05:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-08-20 22:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-08-20 22:02:29 +0000"
     },
     "done": true
   },
@@ -1491,9 +1451,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
-      "has_rose_red": "2025-08-20 22:02:29 +0000"
+      "has_kelp": "2025-08-20 22:15:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-08-20 22:15:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-08-20 22:15:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2025-08-20 22:16:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-08-20 22:16:02 +0000"
     },
     "done": true
   },
@@ -1506,6 +1490,96 @@
   "minecraft:recipes/building_blocks/polished_granite_slab": {
     "criteria": {
       "has_polished_granite": "2025-08-20 22:16:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-08-20 22:16:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-08-20 22:16:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-08-20 22:16:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-08-20 22:51:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-08-20 22:26:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-08-20 22:27:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-08-20 23:14:42 +0000"
     },
     "done": true
   },
