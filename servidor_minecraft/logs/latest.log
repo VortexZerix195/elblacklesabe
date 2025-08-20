@@ -211,3 +211,8 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/641, l='ServerLevel[world]', x=-575.08, y=69.88, z=-176.08]
 [15:10:12] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/644, l='ServerLevel[world]', x=-492.86, y=62.91, z=-176.06]
 [15:22:53] [Server thread/INFO]: JuliiaPoquet has made the advancement [Isn't It Iron Pick]
+[15:38:36] [Server thread/INFO]: JuliiaPoquet froze to death
+[15:45:31] [Server thread/INFO]: powerlaura[/100.73.216.44:61895] logged in with entity id 7401 at (-505.41222307195693, 67.0, 15.391442488063857)
+[15:45:31] [Server thread/INFO]: powerlaura joined the game
+[15:45:31] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
+[15:45:32] [Netty Epoll Server IO #3/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
