@@ -283,3 +283,39 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [13:44:12] [Server thread/INFO]: [VortexMick: Set the time to 1000]
 [13:44:46] [Server thread/INFO]: powerlaura has made the advancement [Hot Stuff]
 [13:49:49] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[13:52:08] [Server thread/INFO]: [STDOUT]: []
+[13:53:48] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[13:53:51] [Worker-Main-116/INFO]: [STDOUT]: []
+[13:54:06] [Server thread/INFO]: [STDOUT]: []
+[13:55:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27815ms or 556 ticks behind
+[13:55:53] [Server thread/INFO]: [STDOUT]: []
+[13:56:51] [Server thread/INFO]: [STDOUT]: []
+[13:58:04] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Survival Mode]
+[13:59:34] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[14:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:37] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[14:00:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=61, z=-98} class_2338{x=-536, y=62, z=-99}
+[14:00:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-535, y=63, z=-93} class_2338{x=-538, y=62, z=-101}
+[14:01:05] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[14:01:57] [Server thread/INFO]: powerlaura was impaled by Drowned
+[14:01:57] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=152.17, y=62.34, z=-2868.78] died. Death ID: 7
+[14:02:56] [Server thread/INFO]: [STDOUT]: []
+[14:03:32] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:05:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-503, y=64, z=-97} class_2338{x=-504, y=64, z=-97}
+[14:05:44] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[14:06:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22687ms or 453 ticks behind
+[14:06:48] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Creative Mode]
+[14:08:04] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Survival Mode]
+[14:08:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-512, y=65, z=-98} class_2338{x=-512, y=63, z=-98}
+[14:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-512, y=65, z=-98} class_2338{x=-512, y=63, z=-98}
+[14:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-512, y=65, z=-98} class_2338{x=-512, y=63, z=-98}
+[14:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-512, y=65, z=-98} class_2338{x=-512, y=63, z=-98}
+[14:08:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-512, y=65, z=-98} class_2338{x=-512, y=63, z=-98}
+[14:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-510, y=61, z=-101} class_2338{x=-510, y=62, z=-100}
+[14:09:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-520, y=64, z=-101} class_2338{x=-515, y=64, z=-99}
+[14:10:17] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Creative Mode]
