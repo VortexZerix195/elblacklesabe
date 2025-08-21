@@ -226,3 +226,6 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [23:33:27] [Netty Epoll Server IO #3/INFO]: [showmeyourskin] Client of VortexMick accepted server config.
 [23:33:29] [Netty Epoll Server IO #3/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexMick
 [23:35:37] [Server thread/WARN]: UUID of added entity already exists: Butterfly['Butterfly'/1050, l='ServerLevel[world]', x=-350.01, y=80.00, z=177.66]
+[23:42:00] [Server thread/INFO]: [powerlaura: Set the time to 1000]
+[23:44:55] [Server thread/INFO]: [powerlaura: Set own game mode to Survival Mode]
+[23:52:16] [Server thread/INFO]: [VortexMick: Set the time to 1000]
