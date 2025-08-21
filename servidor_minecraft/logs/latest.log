@@ -247,3 +247,24 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [13:10:06] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=-713.77, y=31.00, z=-46.55] died. Death ID: 4
 [13:10:44] [Server thread/INFO]: powerlaura was killed by Witch using magic
 [13:10:44] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=-724.70, y=31.00, z=-42.44] died. Death ID: 5
+[13:14:10] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[13:16:37] [Server thread/INFO]: Vortex_Zerix has made the advancement [Not Today, Thank You]
+[13:22:08] [Server thread/INFO]: [STDOUT]: []
+[13:23:39] [Server thread/INFO]: Vortex_Zerix lost connection: Disconnected
+[13:23:39] [Server thread/INFO]: Vortex_Zerix left the game
+[13:23:52] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[13:24:04] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[13:24:34] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[13:24:42] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[13:25:13] [Server thread/INFO]: [STDOUT]: []
+[13:26:36] [Server thread/INFO]: [STDOUT]: []
+[13:27:14] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[13:27:21] [Server thread/INFO]: [STDOUT]: []
+[13:27:54] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[13:28:00] [Server thread/INFO]: [STDOUT]: []
+[13:30:29] [Worker-Main-70/INFO]: [STDOUT]: []
+[13:30:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12196ms or 243 ticks behind
+[13:30:47] [Server thread/WARN]: VortexLLUIS moved too quickly! -10.318719238004576,0.25799910351527444,0.0033451016702912284
+[13:31:06] [Server thread/INFO]: powerlaura drowned
+[13:31:06] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=317.64, y=60.49, z=-1517.07] died. Death ID: 6
+[13:31:07] [Server thread/INFO]: [STDOUT]: []
