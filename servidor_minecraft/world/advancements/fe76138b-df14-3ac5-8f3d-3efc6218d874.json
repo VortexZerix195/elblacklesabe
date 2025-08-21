@@ -1254,5 +1254,17 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-08-21 00:19:52 +0000"
+    },
+    "done": true
+  },
+  "dungeonnowloading:story/root": {
+    "criteria": {
+      "obtain_crafting_table": "2025-08-21 00:19:52 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
