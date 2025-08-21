@@ -425,3 +425,13 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [15:41:29] [Server thread/INFO]: [VortexLLUIS: Set the time to 18000]
 [15:41:41] [Server thread/INFO]: [VortexLLUIS: Set the time to 6000]
 [15:43:30] [Server thread/INFO]: powerlaura has made the advancement [Isn't It Iron Pick]
+[15:46:48] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[15:47:05] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> payaso
+[15:47:28] [Server thread/INFO]: [powerlaura: Set the time to 1000]
+[15:47:48] [Server thread/INFO]: [Vortex_Zerix: Teleported Vortex_Zerix to VortexMick]
+[15:47:50] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[15:49:34] [Server thread/INFO]: [VortexLLUIS: Teleported VortexLLUIS to powerlaura]
+[15:53:33] [Server thread/INFO]: [Vortex_Zerix: Teleported Vortex_Zerix to VortexLLUIS]
+[15:54:16] [Server thread/INFO]: VortexLLUIS lost connection: Disconnected
+[15:54:16] [Server thread/INFO]: VortexLLUIS left the game
+[15:54:26] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
