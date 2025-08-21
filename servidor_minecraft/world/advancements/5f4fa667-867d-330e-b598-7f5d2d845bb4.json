@@ -10,6 +10,7 @@
       "minecraft:cherry_grove": "2025-08-18 22:42:27 +0000",
       "minecraft:cold_ocean": "2025-08-18 22:53:07 +0000",
       "minecraft:forest": "2025-08-18 22:52:47 +0000",
+      "minecraft:ocean": "2025-08-21 11:51:43 +0000",
       "minecraft:frozen_peaks": "2025-08-18 23:42:20 +0000",
       "minecraft:meadow": "2025-08-18 22:42:23 +0000",
       "minecraft:plains": "2025-08-18 22:43:12 +0000"
@@ -362,6 +363,7 @@
     "criteria": {
       "cooked_porkchop": "2025-08-20 23:12:05 +0000",
       "cooked_mutton": "2025-08-21 11:33:12 +0000",
+      "apple": "2025-08-21 11:50:09 +0000",
       "mutton": "2025-08-20 23:09:50 +0000"
     },
     "done": false
@@ -543,6 +545,60 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2025-08-21 11:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-21 11:50:37 +0000"
     },
     "done": true
   },
