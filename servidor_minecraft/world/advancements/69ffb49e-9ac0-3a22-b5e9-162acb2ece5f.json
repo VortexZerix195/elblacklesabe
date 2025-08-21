@@ -1697,5 +1697,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-08-21 13:31:35 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
