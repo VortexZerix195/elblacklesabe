@@ -324,3 +324,43 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [14:14:29] [Server thread/INFO]: Vortex_Zerix joined the game
 [14:14:29] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to Vortex_Zerix
 [14:14:31] [Netty Epoll Server IO #5/INFO]: Received client config 'fallingtrees:fallingtrees_client' from Vortex_Zerix
+[14:23:16] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:30:54] [Server thread/INFO]: [VortexMick: Set own game mode to Creative Mode]
+[14:31:23] [Server thread/INFO]: [VortexMick: Set own game mode to Survival Mode]
+[14:33:36] [Server thread/INFO]: [Not Secure] <VortexMick> que se aga la luz
+[14:33:39] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:34:01] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> que se aga de noche
+[14:34:02] [Server thread/INFO]: [VortexLLUIS: Set the time to 13000]
+[14:34:19] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> que se aga de dia
+[14:34:20] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:35:20] [Worker-Main-113/INFO]: [STDOUT]: []
+[14:36:16] [Server thread/INFO]: [STDOUT]: []
+[14:36:29] [Server thread/INFO]: [STDOUT]: []
+[14:38:20] [Server thread/INFO]: VortexMick lost connection: Disconnected
+[14:38:20] [Server thread/INFO]: VortexMick left the game
+[14:38:22] [Server thread/INFO]: VortexMick[/100.65.59.98:53968] logged in with entity id 74513 at (-392.3528432695791, 64.0, -63.1463549538671)
+[14:38:22] [Server thread/INFO]: VortexMick joined the game
+[14:38:22] [Netty Epoll Server IO #7/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexMick
+[14:38:22] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to VortexMick
+[14:38:34] [Server thread/INFO]: VortexMick lost connection: Disconnected
+[14:38:34] [Server thread/INFO]: VortexMick left the game
+[14:39:50] [Server thread/WARN]: Vortex_Zerix moved too quickly! -92.23178353549412,3.0,81.89623639699913
+[14:40:00] [Server thread/INFO]: VortexMick[/100.65.59.98:54136] logged in with entity id 75714 at (-393.638585648049, 64.0, -57.27227898755995)
+[14:40:00] [Server thread/INFO]: VortexMick joined the game
+[14:40:00] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to VortexMick
+[14:40:00] [Netty Epoll Server IO #2/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexMick
+[14:41:00] [Server thread/INFO]: powerlaura was slain by Coral Snake
+[14:41:00] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=-170.51, y=65.18, z=-4426.98] died. Death ID: 8
+[14:42:16] [Server thread/INFO]: VortexMick lost connection: Disconnected
+[14:42:16] [Server thread/INFO]: VortexMick left the game
+[14:43:39] [Server thread/INFO]: Vortex_Zerix has made the advancement [Simple Dungeon Room]
+[14:44:11] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:48:17] [Worker-Main-66/INFO]: [STDOUT]: []
+[14:48:40] [Server thread/INFO]: [STDOUT]: []
+[14:49:04] [Server thread/INFO]: [Not Secure] <powerlaura> que se haga de dia
+[14:49:31] [Server thread/INFO]: [Not Secure] <powerlaura> que se aga de dia
+[14:49:33] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:49:58] [Server thread/INFO]: [Not Secure] <powerlaura> que se quite la lluvia
+[14:50:28] [Server thread/INFO]: [Not Secure] <powerlaura> que se quite la lluvia
+[14:50:29] [Server thread/INFO]: [VortexLLUIS: Set the weather to clear]
+[14:51:16] [Server thread/INFO]: [STDOUT]: []
