@@ -364,3 +364,15 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [14:50:28] [Server thread/INFO]: [Not Secure] <powerlaura> que se quite la lluvia
 [14:50:29] [Server thread/INFO]: [VortexLLUIS: Set the weather to clear]
 [14:51:16] [Server thread/INFO]: [STDOUT]: []
+[14:54:08] [Server thread/INFO]: [STDOUT]: []
+[14:56:42] [Server thread/INFO]: VortexMick[/100.65.59.98:53710] logged in with entity id 86701 at (-400.20383029070825, 64.0, -56.603333482754046)
+[14:56:42] [Server thread/INFO]: VortexMick joined the game
+[14:56:42] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to VortexMick
+[14:56:44] [Netty Epoll Server IO #4/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexMick
+[14:58:28] [Server thread/INFO]: powerlaura drowned
+[14:58:28] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=-569.20, y=60.20, z=-5077.70] died. Death ID: 9
+[14:59:27] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:59:58] [Server thread/INFO]: Vortex_Zerix has made the advancement [Diamonds!]
+[15:02:12] [Server thread/INFO]: powerlaura lost connection: Disconnected
+[15:02:12] [Server thread/INFO]: powerlaura left the game
+[15:02:12] [Server thread/WARN]: handleDisconnection() called twice
