@@ -218,3 +218,32 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [12:00:13] [Server thread/INFO]: [STDOUT]: []
 [12:00:20] [Server thread/INFO]: [STDOUT]: []
 [12:21:38] [Server thread/INFO]: VortexMick has made the advancement [Acquire Hardware]
+[12:41:40] [Server thread/INFO]: VortexMick has made the advancement [Isn't It Iron Pick]
+[12:49:31] [Server thread/INFO]: Made vortexmic a server operator
+[12:49:42] [Server thread/INFO]: Made VortexMick a server operator
+[12:50:23] [Server thread/INFO]: powerlaura[/100.73.216.44:51373] logged in with entity id 19593 at (-501.03054617296306, 71.0, 20.526868708994133)
+[12:50:23] [Server thread/INFO]: powerlaura joined the game
+[12:50:23] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
+[12:50:23] [Netty Epoll Server IO #4/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
+[12:50:30] [Server thread/INFO]: VortexLLUIS[/100.98.6.115:53172] logged in with entity id 19740 at (-524.4345535338875, 66.0, -83.06030817512334)
+[12:50:30] [Server thread/INFO]: VortexLLUIS joined the game
+[12:50:30] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to VortexLLUIS
+[12:50:32] [Netty Epoll Server IO #6/INFO]: Received client config 'fallingtrees:fallingtrees_client' from VortexLLUIS
+[12:52:52] [Server thread/INFO]: Vortex_Zerix[/100.88.140.126:53590] logged in with entity id 20572 at (-496.5, 67.0, 21.5)
+[12:52:52] [Server thread/INFO]: Vortex_Zerix joined the game
+[12:52:52] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to Vortex_Zerix
+[12:52:54] [Netty Epoll Server IO #1/INFO]: Received client config 'fallingtrees:fallingtrees_client' from Vortex_Zerix
+[12:54:58] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[12:55:29] [Server thread/INFO]: Vortex_Zerix has made the advancement [Acquire Hardware]
+[12:55:47] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Creative Mode]
+[12:59:06] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Survival Mode]
+[13:00:12] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> pero no nos escuchas
+[13:00:15] [Server thread/INFO]: [Not Secure] <Vortex_Zerix> boba
+[13:01:45] [Server thread/INFO]: VortexMick has made the advancement [Hot Stuff]
+[13:04:34] [Server thread/INFO]: [VortexMick: Set the time to 1000]
+[13:06:58] [Server thread/INFO]: Vortex_Zerix has made the advancement [Isn't It Iron Pick]
+[13:07:09] [Server thread/INFO]: Vortex_Zerix has made the advancement [Suit Up]
+[13:10:06] [Server thread/INFO]: powerlaura tried to swim in lava
+[13:10:06] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=-713.77, y=31.00, z=-46.55] died. Death ID: 4
+[13:10:44] [Server thread/INFO]: powerlaura was killed by Witch using magic
+[13:10:44] [Server thread/INFO]: [STDOUT]: Player class_3222['powerlaura'/19593, l='ServerLevel[world]', x=-724.70, y=31.00, z=-42.44] died. Death ID: 5

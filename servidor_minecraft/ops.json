@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "090257e1-b149-3f12-a46a-3e48d38b229c",
+    "name": "vortexmic",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "fe76138b-df14-3ac5-8f3d-3efc6218d874",
     "name": "powerlaura",
     "level": 4,
@@ -14,6 +20,12 @@
   {
     "uuid": "c0391713-4723-3308-a115-0ecac62b14f9",
     "name": "Vortex_Zerix",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5f4fa667-867d-330e-b598-7f5d2d845bb4",
+    "name": "VortexMick",
     "level": 4,
     "bypassesPlayerLimit": false
   },
