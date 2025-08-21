@@ -376,3 +376,39 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [15:02:12] [Server thread/INFO]: powerlaura lost connection: Disconnected
 [15:02:12] [Server thread/INFO]: powerlaura left the game
 [15:02:12] [Server thread/WARN]: handleDisconnection() called twice
+[15:06:57] [Server thread/INFO]: powerlaura[/100.73.216.44:60502] logged in with entity id 91690 at (-568.7160377634933, 63.0, -5077.350935418275)
+[15:06:57] [Server thread/INFO]: powerlaura joined the game
+[15:06:57] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
+[15:06:58] [Netty Epoll Server IO #6/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
+[15:07:26] [Server thread/INFO]: [Vortex_Zerix: Teleported Vortex_Zerix to VortexLLUIS]
+[15:07:26] [Server thread/WARN]: Vortex_Zerix moved too quickly! 74.40865417441182,104.0,-155.88422937575325
+[15:08:47] [Server thread/WARN]: Vortex_Zerix moved too quickly! -173.38234835829132,-34.0,200.67269992226278
+[15:09:35] [Server thread/INFO]: [VortexMick: Set the time to 1000]
+[15:10:00] [Server thread/INFO]: [Not Secure] <VortexMick> dbr
+[15:10:11] [Server thread/INFO]: [Not Secure] <VortexMick> eso /
+[15:10:33] [Server thread/INFO]: [powerlaura: Set the time to 1000]
+[15:10:59] [Server thread/INFO]: [powerlaura: Set the time to 1000]
+[15:11:16] [Server thread/INFO]: [STDOUT]: []
+[15:11:26] [Server thread/INFO]: [STDOUT]: []
+[15:12:49] [Server thread/INFO]: powerlaura lost connection: Disconnected
+[15:12:49] [Server thread/INFO]: powerlaura left the game
+[15:13:18] [Server thread/INFO]: powerlaura[/100.73.216.44:60569] logged in with entity id 96552 at (-400.08350552840454, 64.0, -5077.640124986347)
+[15:13:18] [Server thread/INFO]: powerlaura joined the game
+[15:13:18] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to powerlaura
+[15:13:18] [Netty Epoll Server IO #0/INFO]: Received client config 'fallingtrees:fallingtrees_client' from powerlaura
+[15:14:28] [Server thread/INFO]: [Not Secure] <VortexMick> sudo su deleted powerlaura
+[15:18:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29342ms or 586 ticks behind
+[15:18:20] [Server thread/WARN]: VortexMick moved too quickly! 6.848268745636517,0.0,-7.40914972004515
+[15:19:00] [Worker-Main-52/INFO]: [STDOUT]: []
+[15:19:10] [Server thread/INFO]: [STDOUT]: []
+[15:19:41] [Server thread/INFO]: [STDOUT]: []
+[15:21:16] [Server thread/INFO]: [VortexMick: Set the time to 1000]
+[15:22:34] [Worker-Main-113/INFO]: [STDOUT]: []
+[15:23:31] [Server thread/INFO]: [STDOUT]: []
+[15:24:57] [Worker-Main-66/INFO]: [STDOUT]: []
+[15:25:27] [Server thread/INFO]: [STDOUT]: []
+[15:27:25] [Worker-Main-116/INFO]: [STDOUT]: []
+[15:28:07] [Server thread/INFO]: [STDOUT]: []
+[15:30:59] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[15:32:28] [Worker-Main-113/INFO]: [STDOUT]: []
+[15:33:23] [Server thread/INFO]: [STDOUT]: []
