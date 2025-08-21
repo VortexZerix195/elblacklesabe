@@ -319,3 +319,8 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [14:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-510, y=61, z=-101} class_2338{x=-510, y=62, z=-100}
 [14:09:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-520, y=64, z=-101} class_2338{x=-515, y=64, z=-99}
 [14:10:17] [Server thread/INFO]: [VortexLLUIS: Set own game mode to Creative Mode]
+[14:13:27] [Server thread/INFO]: [VortexLLUIS: Set the time to 1000]
+[14:14:29] [Server thread/INFO]: Vortex_Zerix[/100.88.140.126:53964] logged in with entity id 59577 at (-703.3000000119209, 29.0, -19.18527989076797)
+[14:14:29] [Server thread/INFO]: Vortex_Zerix joined the game
+[14:14:29] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to Vortex_Zerix
+[14:14:31] [Netty Epoll Server IO #5/INFO]: Received client config 'fallingtrees:fallingtrees_client' from Vortex_Zerix
